@@ -1,0 +1,456 @@
+﻿body
+{	
+	font-family:calibri;
+}
+#corps
+{
+	width:100%;
+	margin:auto;
+}
+header
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+#logo img
+{
+	max-width:200px;
+	max-height:100%;
+}
+nav ul
+{
+	display:flex;
+}
+nav li
+{
+	margin:20px;
+	max-height:100%;
+	max-width: 30%;
+}
+nav a
+{
+	padding:30px 10px;
+}
+#trouver
+{
+	padding:0px;
+	line-height:50px;
+}
+#filtre i
+{
+	color:#0065FC;
+	background-color:#DEEBFF;
+	padding:7px;
+	font-size:15px;
+	border:2px solid #F2F2F2;
+	border-radius:25px;
+	position:relative;
+	left:33px;	;
+}
+ .fa-map-marker-alt
+ {
+	color: #0065FC;
+	background-color:#F2F2F2;
+	border:3px solid#F2F2F2;
+	border-radius:10px 0 0 10px;
+	font-size:15px;
+	padding:12px;
+	margin-top:0px;
+	position:relative;
+	right:0px;
+}
+
+.fa-search
+{
+	color: #0065FC;
+	background-color:#F2F2F2;
+	border:3px solid#F2F2F2;
+	border-radius:0px 10px 10px 0;
+	font-size:15px;
+	padding:12px;
+	margin-top:0px;
+	position:relative;
+	left:-20px;
+	display:none;
+}
+ #info i
+ {
+	padding:7px;
+	font-size:15px;
+	color:#0065FC;
+	border:2px solid #F2F2F2;
+	border-radius:15px;
+	padding:5px 10px;
+}
+#filtre
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	width:100%;
+}
+#filtre input
+{
+	max-width:20%;
+	height:30px;
+	border:2px solid #F2F2F2;
+	border-radius:20px;
+	flex-wrap:wrap;
+}
+#ville
+{
+	width:20%;
+	height:40px;
+	border:2px solid #F2F2F2;
+	padding:0px;
+	margin-left:-10px;
+}
+#rechercher >i
+{
+	border:3px solid #F2F2F2;
+	border-radius:10px 0 0 10px;
+	background-color:#F2F2F2;
+	font-size:15px;
+	padding:12px;
+	margin-top:0px;
+}
+#rech
+{
+	background-color:#0065FC;
+	width:10%;
+	height:44px;
+	border:2px solid #0065FC;
+	border-radius:0px 10px 10px 0px;
+	padding:0px;
+	margin-left:-20px;
+}
+#section1
+{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+article
+{
+	border-radius:20px;
+	background-color:#F2F2F2;
+	height:min-content;
+	width:74%;
+}
+aside
+{
+	width:26%;
+	margin-left:20px;
+	background-color:#F2F2F2;
+	border-radius:20px;
+	position:relative;
+}
+#hebergement
+{
+	display:flex;
+	justify-content:space-around;
+	align-items:flex-start;
+	flex-wrap:wrap;
+	height:min-content;
+}
+#populaire
+{
+	height:min-content;
+}
+.hebergement
+{
+	border-radius:15px ;
+	background-color:white;
+	margin:10px;
+	width:28%;
+	height:30%;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+}
+.populaire
+{
+	border:2px solid white;
+	border-radius:15px;
+	background-color:white;
+	margin:20px;
+	width:90%;
+	height:100%;
+	display:flex;
+	flex-direction:row;
+}
+.text
+{
+	margin-left:1%;
+	text-align:left;
+	width:100%;
+	position:relative;
+	bottom: 0px;
+}
+.classement
+{
+	position:relative;
+	bottom:0px;
+}
+.classement i
+{
+	font-size:12px;
+	color:#0065FC;
+}
+.hebergement img
+{
+	width:98%;
+	max-height:80%;
+	border:2px solid white;
+	border-radius:15px 15px 0px 0px;
+	margin:0.5%;
+}
+.populaire img
+{
+	width:100%;
+	max-height:100%;
+	border:2px solid white;
+	border-radius:15px 0px 0px 15px;
+}
+.large 
+{
+	margin-right:0.5%;
+	padding:0px;
+	width:23%;
+	height:600px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	border:3px solid whitesmoke; 
+	border-radius:15px ;
+	padding:0px;
+}
+.large img 
+{
+	width:100%;
+	height:95%;
+	border-radius:15px 15px 0px 0px;
+	min-height:80%; */
+	border-radius:15px 15px 0px 0px;
+}
+ .medium
+{
+	margin:0px ;
+	padding:0px;
+	width:23%;
+	height:600px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	border-radius:15px ;
+	border:3px solid whitesmoke; 
+}
+.med 
+ {	
+	height:45%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	border-radius:15px ;
+}
+.med img
+{
+	width:100%;
+	height:76%;
+	border-radius:15px 15px 0px 0px;
+}
+ #section2
+{
+	border:2px solid white;
+	border-radius:15px;
+	background-color:white;
+	margin-top:1%;
+} 
+.fa-chart-line
+{
+	position:relative;
+	margin-left:10%;
+}
+.populaire img
+{
+	max-width:35%;
+	max-height:100%;
+}
+#activite
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+#activite h3
+{
+	margin-left:20px;
+}
+footer
+{
+	margin-top:1%;
+	padding:1%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	background-color:#F2F2F2;
+	border:1px solid #F2F2F2;
+	border-radius:5px;	
+}
+.foot
+{
+	line-height:30px;
+	width:28%;
+	height:auto;
+	margin-right:5%;
+}
+a
+{
+	text-decoration:none;
+	font-size:18px;
+	color:#000000;
+}
+ul
+{
+	list-style:none;
+	text-align:left;
+	padding:0px;
+}
+h3
+{
+	font-size:20px;
+	font-weight:bolder;
+}
+aside h2, article h2
+{
+	margin-left:30px;
+}
+h2
+{
+	font-size:30px;
+	font-weight:bolder;
+}
+nav a:hover
+{	
+	font-weight:bolder;
+}
+nav a:active
+{
+	border-top:2px solid black;
+}
+@media screen and (max-width:700px)
+{	
+	body
+	{
+		margin-left:0%;
+		margin-right:0%;
+		/*background-color: cyan;*/
+		
+	}
+	#corps
+	{
+		
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		
+		
+
+		/*background-color: brown;*/
+	}
+	#logo 
+	{
+		margin-top: 0%;
+		margin-bottom: 0%;
+		/*background-color: blueviolet;*/
+	}
+	header 
+	{
+		display:flex;
+		flex-direction:row;
+		/*background-color: chartreuse;*/
+	} 
+	nav ul
+	{
+		margin-top: 0%;
+		margin-bottom: 0%;
+		display:flex;
+		flex-wrap:wrap-reverse;
+		/*background-color:chocolate;*/
+	} 
+	nav li
+	{
+		max-width: 30%;
+	}
+	#trouver
+	{
+		display:flex;
+		flex-direction:row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+	}
+	#ville
+	{
+		width:50%;
+	}
+	
+	#filtre
+	{
+		margin-left:1%;
+		margin-right:0%;
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+	}
+	/* .fa-chart-line
+	{
+		position:relative;
+		left:50%;
+	} */
+	article, aside, .hebergement, #populaire, .large, .medium, .foot, footer, #activite ,#corps
+	{
+		width:98%;
+		margin: 1%;		
+	}
+	#section1
+	{
+		display:flex;
+		flex-direction:column-reverse;
+	}	
+	#section2, #activite 
+	{
+		display:flex;
+		flex-direction:column;	
+	}
+	h2
+	{
+		font-size:30px;
+	}
+	#section2 h2
+	{
+		margin-left:5%;
+	}
+	footer
+	{
+		padding:0%;
+	}
+	#rech
+	{
+	display:none;
+	
+	}
+	.fa-search
+	{
+	display: inline-block;
+			
+	}
+	
+	.fa-chart-line
+	{
+	position:relative;	
+	margin-left:25%;
+	}
+
+}
